@@ -93,8 +93,12 @@ export const timeFormat = (
  */
 ```
 
-## 项目规范
+## 项目的规范
 
 1. 项目必须要有一个 `readme.md`。
 
 拥有 `readme` 文件的原因很简单，就是让不熟悉此项目的人，通过 `readme` 快速了解项目。
+
+## `Vue`的规范
+
+[Vue官网文档指引](https://cn.vuejs.org/v2/style-guide/)

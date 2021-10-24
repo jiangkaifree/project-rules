@@ -142,6 +142,16 @@ export const timeFormat = (
 
 拥有 `readme` 文件的原因很简单，就是让不熟悉此项目的人，通过 `readme` 快速了解项目。
 
-## `Vue`的规范
+## `Vue`项目的规范
 
 [Vue官网文档指引](https://cn.vuejs.org/v2/style-guide/)
+
+## 其他
+
+大厂公司的代码标准也是值得我们看看了解到。
+
+[腾讯](https://tgideas.qq.com/doc/index.html) [京东凹凸](https://guide.aotu.io/index.html) [网易](http://nec.netease.com/standard) [爱彼迎](https://github.com/airbnb/javascript)
+
+同时, 还有一些编辑器插件能够让我们形成统一的代码风格。
+
+[ESlint](https://eslint.bootcss.com/)  [Prettier](https://prettier.io/)。

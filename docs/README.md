@@ -29,13 +29,12 @@ const BASEURL = 'http:localhost:3000/api'
  * @param {string} form 时间格式字符串
  * @param {string} [form = 'YYYY-MM-DD'] 时间格式字符串
  * @param {number} type 类型 0:表示失败，1:表示成功
- * @param {array} [date] 日期
+ * @param {string[]} time 时间戳
  * @param {object} userInfo 用户信息
  * @param {string} userInfo.name 名称
  * @param {number} userInfo.age 年龄
- * @param {string ｜ string[]} [date]
- * @methods getDate 获取当前时间
- * @returns {string} 对应格式化的时间
+ * @methods or @func getDate 获取当前时间
+ * @returns {string} 对应格式化的时间YYYY-MM-DD HH:mm:ss
  */
 ```
 
@@ -49,6 +48,18 @@ const BASEURL = 'http:localhost:3000/api'
 
 * 第五行：参数 `type` 是枚举类型，要么是 `0`, 要么是 `1` , 分别代表失败和成功。类型是 `number`。
 
+* 第六行：参数 `time` 表示时间戳，但是它的类型是 `string` 数组。
+
+* 第七行：参数 `userInfo` 表示用户信息的参数，是一个 `object` 类型。
+
+* 第七行：参数 `userInfo` 的 `name` 属性表示名称，是 `string` 类型。
+
+* 第七行：参数 `userInfo` 的 `age` 属性表示年龄，是 `number` 类型。
+
+* 第八行：此方法使用到了 `getDate` 方法，这是一个获取当前时间的方法，也可以使用 `@func` 表示。
+
+* 第九行： 此方法返回一个 `string` 类型的格式化的时间，形如 YYYY-MM-DD HH:mm:ss。
+
 ### 单行注释
 
 单行注释通常后接一个空格
@@ -57,7 +68,7 @@ const BASEURL = 'http:localhost:3000/api'
 // 这是说明内容
 ```
 
-我们通常在语句逻辑间进行使用，进行更为细节新的解释说明。举例：
+我们通常在语句逻辑间进行使用，进行更为细节性的解释说明。举例：
 
 ```js
 onOk() {

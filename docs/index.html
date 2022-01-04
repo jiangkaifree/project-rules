@@ -21,6 +21,8 @@
         name: "项目规范指引",
         repo: "https://github.com/2462870727/project-rules",
         formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+        loadNavbar: true,
+				coverPage: true,
         plugins: [
           function (hook, vm) {
             hook.beforeEach(function (html) {
@@ -32,7 +34,7 @@
                 editHtml +
                 html +
                 "\n----\n" +
-                "Last modified {docsify-updated} " +
+                "上次更新时间 {docsify-updated} " +
                 editHtml
               );
             });

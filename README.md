@@ -1,15 +1,21 @@
 # 项目开发规范指引
 
-这是一个项目规范的指引, 并不局限于某一种语言规范。 如果你不知道相关规范, 你可以试着看看或许会有所收获。如果你的团队或者公司有相关的开发规范,请遵循公司团队的标准, 这只是提供个人开发,或者是不了解开发相关规范的一个指引。让你更快的了解一些基础规范。
+这是基于 **airbnb** 代码规范的翻译 [点击前往airbnb](https://github.com/airbnb/javascript) , 结合前人[lin-123](https://github.com/2462870727/javascript) ，增加新的内容。并搭建文档，更加适合观看。[文档](https://2462870727.github.io/project-rules/)
 
 ## 功能实现
 
-- [x] 命名规范
+- [x] `html`规范
 
-- [x] 注释规范
+- [x] `js` 规范 
+
+- [x] `css` 规范 
+
+- [x] less/sass规范
+
+- [x] 变量、函数命名规范推荐
 
 - [x] `vue` 代码规范
 
-- [x] 其他大厂规范及规范化插件指引
-
 ## 感谢
+
+[airbnb](https://github.com/airbnb)  [lin-123](https://avatars.githubusercontent.com/u/12790570?v=4)

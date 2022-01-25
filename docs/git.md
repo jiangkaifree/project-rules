@@ -40,6 +40,7 @@ feat($route): add support for the `reloadOnUrl` configuration option
 + `test`：添加缺失或纠正现有测试。
 + `chore`： 对构建过程或辅助工具和库（例如文档生成）的更改。
 + `revert`：版本代码回退，后跟还原提交的标头。在 `body` 中它应该说：This reverts commit <hash>.，其中哈希是要恢复的提交的 SHA。
++ `build`： 修改影响项目构建文件或外部依赖项，比如`npm`、`gulp`、`webpack`、`broccoli`等。
 
 ### scope
 

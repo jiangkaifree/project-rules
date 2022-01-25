@@ -4,16 +4,16 @@
 
 ## 功能实现
 
-- [x] `html`规范
+- [x] html 规范
 
-- [x] `javascript` 规范 
+- [x] javascript 规范 
 
-- [x] `css` 规范 
+- [x] css 规范 
 
 - [x] less/sass规范
 
 - [x] 变量、函数命名规范指引
 
-- [x] `vue` 代码规范
+- [x] vue 代码规范
 
-- [x] `Git` 提交规范
+- [x] git 提交规范

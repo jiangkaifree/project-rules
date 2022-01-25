@@ -1,12 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2021-12-28 14:06:20
- * @LastEditTime: 2021-12-28 15:27:28
- * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: \project-rules\docs\html.md
--->
-
 # HTML 代码规范指南
 
 尽量遵循 `HTML` 标准和语义，但是不要以牺牲实用性为代价。任何时候都要尽量使用最少的标签并保持最小的复杂度。

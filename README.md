@@ -18,6 +18,8 @@
 
 - [x] `vue` 代码规范
 
+- [x] `Git` 提交规范
+
 ## 感谢
 
 [airbnb](https://github.com/airbnb)  [lin-123](https://avatars.githubusercontent.com/u/12790570?v=4)

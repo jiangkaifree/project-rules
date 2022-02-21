@@ -116,7 +116,7 @@ prefix? + action (A) + high context (HC) +   low context? (LC)
 ```
 参照下表看看
 
-Name                   | Prefix   | Action (A) | High context (HC) | Low context (LC) |
+|Name                   | Prefix   | Action (A) | High context (HC) | Low context (LC) |
 | ---------------------- | -------- | ---------- | ----------------- | ---------------- |
 | `getUser`              |          | `get`      | `User`            |                  |
 | `getUserMessages`      |          | `get`      | `User`            | `Messages`       |

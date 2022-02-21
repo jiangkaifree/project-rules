@@ -1,6 +1,8 @@
 # 变量/方法命名规范指引
 
-[Github 9.7k star 命名规范推荐](https://github.com/kettanaito/naming-cheatsheet) , 下面是我将它翻译成中文。
+本文档翻译自[naming-cheatsheet，Github 9.7k star](https://github.com/kettanaito/naming-cheatsheet)。
+
+一个变量方法命名的规范，让你起一个高质量的变量名。
 
 ## 一，命名变量
 
@@ -304,9 +306,10 @@ const friend = 'Bob'
 const friends = ['Bob', 'Tony', 'Tanya']
 ```
 
-### 相关
+### 相关扩展
 
 下面这些我也推荐你阅读，它能告诉你怎样会是一段干净，且规范的代码片段。
 
 [64k star项目clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+
 [1.8k star项目clean-code-js](https://github.com/alivebao/clean-code-js)

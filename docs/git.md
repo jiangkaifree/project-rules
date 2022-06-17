@@ -41,6 +41,7 @@ feat($route): add support for the `reloadOnUrl` configuration option
 + `chore`： 对构建过程或辅助工具和库（例如文档生成）的更改。
 + `revert`：版本代码回退，后跟还原提交的标头。在 `body` 中它应该说：This reverts commit <hash>.，其中哈希是要恢复的提交的 SHA。
 + `build`： 修改影响项目构建文件或外部依赖项，比如`npm`、`gulp`、`webpack`、`broccoli`等。
++ `merge` 代码合并
 
 ### scope
 
@@ -52,9 +53,9 @@ feat($route): add support for the `reloadOnUrl` configuration option
 
 主题包含对更改的简洁描述:
 
-1. 使用祈使语气，现在时：“change” 不是 “changed” 也不是 “changes”。
-2. 第一个字母不要大写。
-3. 末尾没有点（.）或者句号（。）。
+1. 使用祈使语气，现在时：“change” 不是 “changed” 也不是 “changes”
+2. 第一个字母不要大写
+3. 末尾没有点（.）或者句号（。）
 
 ## Body
 
@@ -72,14 +73,15 @@ feat($route): add support for the `reloadOnUrl` configuration option
 
 ## Footer
 
-页脚应包含有关重大更改的任何信息，也是引用此提交关闭的 GitHub 问题的地方。不兼容之处应该以 `BREAKING CHANGE:` 开头，带有一个空格或两个换行符。然后将提交消息的其余部分用于此目的。详细的解释可以在这个文档中找到。
+页脚应包含有下面两个部分： 1. 关重大更改的任何信息 (BREAKING CHANGE)，2. 处理 `Issue`。
+
+不兼容之处应该以 `BREAKING CHANGE:` 开头，带有一个空格或两个换行符。然后将提交消息的其余部分用于此目的。详细的解释可以在这个文档中找到。
 
 ### 不兼容变动
 
 ```shell
 BREAKING CHANGE:  不再兼容ie10以下浏览器
 ```
-
 
 
 ### 处理 Issue
@@ -90,7 +92,52 @@ BREAKING CHANGE:  不再兼容ie10以下浏览器
 Fix #111
 ```
 
+## 例子
 
+这是一些简单的示例
+
+feat
+```shell
+feat: 增加新的接口api
+```
+
+fix
+```shell
+fix(create): 修改创建初始化xhr参数问题
+```
+
+reverts
+```shell
+revert: feat: 增加新的接口api
+
+This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
+```
+
+这是一些包含 `body`, `footer` 的例子
+
+```shell
+test: 增加jest测试
+ 
+增加createAxios 测试。增加init 参数
+
+BREAKING CHANGE： create api 增加参数
+
+before： create({
+    methods: 'get'
+})
+
+now： create()
+
+不在需要默认参数
+```
+
+```shell
+build: 修改webpack config, 去除语法转换
+
+不再支持ie浏览器
+
+FIX #231, #342, #123
+```
 
 ## 相关插件
 
